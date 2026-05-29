@@ -115,13 +115,6 @@ a.link-secondary {
 }
 .btn-transition:hover { transform: translateY(-1px); }
 
-.hero-slash::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, transparent 26%, rgba(106,191,30,0.06) 100%);
-}
-
 
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(10px); }
