@@ -1,7 +1,7 @@
 import Topbar from "@/components/Topbar";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Latest from "@/components/Latest";
+import IntroBanner from "@/components/Intro-banner";
 import Category from "@/components/Category";
 import Benefits from "@/components/Benefits";
 import About from "@/components/About";
@@ -15,7 +15,7 @@ const Home = () => {
 			{/*<Topbar />*/}
 			<Header />
 			<Hero />
-			<Latest />
+			<IntroBanner />
 			<Category />
 			<Benefits />
 			<About />

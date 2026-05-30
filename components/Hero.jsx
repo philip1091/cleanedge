@@ -54,8 +54,8 @@ const Hero = () => {
 					<div
 						className="stat-cell px-[1.4rem] py-[2rem] border-white/[0.06] flex items-center gap-4">
 						<svg className="stat-icon text-green shrink-0" width="28" height="28" viewBox="0 0 28 28" fill="none">
-							<circle cx="14" cy="14" r="10" stroke="#6abf1e" stroke-width="1.8"/>
-							<path d="M14 8V14L18 17" stroke="#6abf1e" stroke-width="1.8" stroke-linecap="round"/>
+							<circle cx="14" cy="14" r="10" stroke="#6abf1e" strokeWidth="1.8"/>
+							<path d="M14 8V14L18 17" stroke="#6abf1e" strokeWidth="1.8" strokeLinecap="round"/>
 						</svg>
 						<div>
 							<div
@@ -69,7 +69,7 @@ const Hero = () => {
 						className="stat-cell px-[1.4rem] py-[2rem] border-white/[0.06] flex items-center gap-4">
 						<svg className="stat-icon text-green shrink-0" width="28" height="28" viewBox="0 0 28 28" fill="none">
 							<path d="M14 4 L17 10 L24 11 L19 16 L20 23 L14 20 L8 23 L9 16 L4 11 L11 10 Z" stroke="#6abf1e"
-							      stroke-width="1.8" stroke-linejoin="round"/>
+							      strokeWidth="1.8" strokeLinejoin="round"/>
 						</svg>
 						<div>
 							<div
@@ -81,10 +81,10 @@ const Hero = () => {
 					</div><div
 					className="stat-cell px-[1.4rem] py-[2rem] border-white/[0.06] flex items-center gap-4">
 					<svg className="stat-icon text-green shrink-0" width="28" height="28" viewBox="0 0 28 28" fill="none">
-						<path d="M6 14 L10 8 L14 12 L18 6 L22 10" stroke="#6abf1e" stroke-width="1.8" stroke-linecap="round"
-						      stroke-linejoin="round"/>
-						<line x1="4" y1="22" x2="24" y2="22" stroke="#6abf1e" stroke-width="1.5" stroke-linecap="round"/>
-						<circle cx="22" cy="7" r="3" stroke="#6abf1e" stroke-width="1.5"/>
+						<path d="M6 14 L10 8 L14 12 L18 6 L22 10" stroke="#6abf1e" strokeWidth="1.8" strokeLinecap="round"
+						      strokeLinejoin="round"/>
+						<line x1="4" y1="22" x2="24" y2="22" stroke="#6abf1e" strokeWidth="1.5" strokeLinecap="round"/>
+						<circle cx="22" cy="7" r="3" stroke="#6abf1e" strokeWidth="1.5"/>
 					</svg>
 					<div>
 						<div

@@ -7,8 +7,10 @@
     <list default="true" id="f6219338-daa9-4346-bd31-054e1ac38e21" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/svg/skyline.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/svg/skyline.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Latest.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Intro.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778899160213</updated>
       <workItem from="1778899163616" duration="11550000" />
-      <workItem from="1779634100458" duration="62559000" />
+      <workItem from="1779634100458" duration="71047000" />
     </task>
     <servers />
   </component>

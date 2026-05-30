@@ -1,7 +1,4 @@
-import Image from "next/image"
 import Link from "next/link"
-import { FaHeart } from "react-icons/fa"
-import { FaCartShopping } from "react-icons/fa6";
 import Sidenav from "@/components/Sidenav";
 import Logo from "./svg/logo"
 
