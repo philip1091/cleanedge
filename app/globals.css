@@ -97,6 +97,7 @@ a.link-secondary {
     @apply h-[54px] border border-gray-200 outline-none;
 }
 
+
 /*swiper*/
 
 .swiper-scrollbar-drag {
@@ -115,6 +116,14 @@ a.link-secondary {
 }
 .btn-transition:hover { transform: translateY(-1px); }
 
+.reveal {
+    transform: translateY(28px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible { opacity: 1; transform: none; }
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
 
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(10px); }

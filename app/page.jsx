@@ -2,12 +2,12 @@ import Topbar from "@/components/Topbar";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import IntroBanner from "@/components/Intro-banner";
-import Category from "@/components/Category";
-import Benefits from "@/components/Benefits";
 import About from "@/components/About";
-import Cta from "@/components/Cta";
+import Service from "@/components/Service";
+import Process from "@/components/Process";
+import Testimonial from "@/components/Testimonial";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Copyright from "@/components/Copyright";
 
 const Home = () => {
 	return (
@@ -16,12 +16,12 @@ const Home = () => {
 			<Header />
 			<Hero />
 			<IntroBanner />
-			<Category />
-			<Benefits />
 			<About />
-			<Cta />
+			<Service />
+			<Process />
+			<Testimonial />
+			<Contact />
 			<Footer />
-			<Copyright />
 		</div>
 	)
 }

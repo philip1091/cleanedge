@@ -1,0 +1,77 @@
+import React from 'react'
+
+const Process = () => {
+	return (
+		<section id="process" className="process relative overflow-hidden bg-navy px-6 md:px-16 py-20 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-green">
+
+			<div className="section-tag font-secondary font-bold text-[0.65rem] tracking-[0.3em] uppercase text-green mb-4 flex items-center gap-2 before:content-[''] before:w-6 before:h-[3px] before:bg-green opacity-0 animate-[fadeUp_0.6s_0.1s_forwards]">
+				How It Works
+			</div>
+
+			<h2 className="sec-title font-secondary font-extrabold text-[clamp(2.4rem,5vw,4.5rem)] leading-none uppercase text-white opacity-0 animate-[fadeUp_0.6s_0.25s_forwards]">
+				OUR <span className="text-green">PROCESS</span>
+			</h2>
+
+			<div className="process-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-12">
+
+				<div className="proc-step relative pt-4 opacity-0 animate-[fadeUp_0.6s_0.35s_forwards] after:content-['→'] after:absolute after:top-[1.4rem] after:right-[-1.2rem] after:text-green after:text-[1.2rem] after:font-secondary xl:after:block after:hidden">
+					<div className="proc-num font-secondary font-black text-[3.5rem] text-green leading-none mb-2 opacity-90">
+						01
+					</div>
+
+					<div className="proc-title font-secondary font-bold text-[1.05rem] tracking-[0.1em] uppercase text-white mb-3">
+						Free Site Assessment
+					</div>
+
+					<div className="proc-desc text-[0.88rem] font-light leading-[1.7] text-white/45">
+						We visit your property, assess your needs, and design a custom cleaning plan — at absolutely no cost to you.
+					</div>
+				</div>
+
+				<div className="proc-step relative pt-4 opacity-0 animate-[fadeUp_0.6s_0.5s_forwards] after:content-['→'] after:absolute after:top-[1.4rem] after:right-[-1.2rem] after:text-green after:text-[1.2rem] after:font-secondary xl:after:block after:hidden">
+					<div className="proc-num font-secondary font-black text-[3.5rem] text-green leading-none mb-2 opacity-90">
+						02
+					</div>
+
+					<div className="proc-title font-secondary font-bold text-[1.05rem] tracking-[0.1em] uppercase text-white mb-3">
+						Custom Quote
+					</div>
+
+					<div className="proc-desc text-[0.88rem] font-light leading-[1.7] text-white/45">
+						You receive a clear, itemized proposal within 24 hours. No hidden fees, no vague pricing — just straightforward numbers.
+					</div>
+				</div>
+
+				<div className="proc-step relative pt-4 opacity-0 animate-[fadeUp_0.6s_0.65s_forwards] after:content-['→'] after:absolute after:top-[1.4rem] after:right-[-1.2rem] after:text-green after:text-[1.2rem] after:font-secondary xl:after:block after:hidden">
+					<div className="proc-num font-secondary font-black text-[3.5rem] text-green leading-none mb-2 opacity-90">
+						03
+					</div>
+
+					<div className="proc-title font-secondary font-bold text-[1.05rem] tracking-[0.1em] uppercase text-white mb-3">
+						Dedicated Team
+					</div>
+
+					<div className="proc-desc text-[0.88rem] font-light leading-[1.7] text-white/45">
+						A consistent, vetted, bilingual crew is assigned exclusively to your account. Same faces, same standards, every visit.
+					</div>
+				</div>
+
+				<div className="proc-step relative pt-4 opacity-0 animate-[fadeUp_0.6s_0.8s_forwards]">
+					<div className="proc-num font-secondary font-black text-[3.5rem] text-green leading-none mb-2 opacity-90">
+						04
+					</div>
+
+					<div className="proc-title font-secondary font-bold text-[1.05rem] tracking-[0.1em] uppercase text-white mb-3">
+						Ongoing Quality
+					</div>
+
+					<div className="proc-desc text-[0.88rem] font-light leading-[1.7] text-white/45">
+						Monthly check-ins, digital checklists, and a direct line to management keep your standards locked in — permanently.
+					</div>
+				</div>
+
+			</div>
+		</section>
+	)
+}
+export default Process
