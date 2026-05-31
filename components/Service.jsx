@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
 	return (
-		<section id="services" className="services bg-offwhite px-6 md:px-16 py-24 overflow-hidden">
+		<section id="service" className="services bg-offwhite px-6 md:px-16 py-24 overflow-hidden">
 			<div className="sec-header flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-14 opacity-0 animate-[fadeUp_0.6s_0.1s_forwards]">
 
 				<div>

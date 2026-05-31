@@ -1,6 +1,6 @@
 "use client"
 import { createContext, useContext, useMemo, useState } from "react";
-import content from "../data/content.json"
+import content from "../data/content.js"
 const LanguageContext = createContext(null);
 
 export const useLanguage = () => useContext(LanguageContext);

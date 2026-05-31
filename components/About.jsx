@@ -1,6 +1,7 @@
 import React from 'react'
 
 const About = () => {
+
 	return (
 		<section id="about" className="about grid grid-cols-1 lg:grid-cols-2 min-h-[560px]">
 			<div className="about-left relative overflow-hidden flex flex-col justify-center bg-navy px-16 py-20 after:content-[''] after:absolute after:bottom-[-60px] after:right-[-60px] after:w-[280px] after:h-[280px] after:rounded-full after:border-[60px] after:border-green/10 before:content-[''] before:absolute before:top-[-40px] before:left-[-40px] before:w-[160px] before:h-[160px] before:rounded-full before:border-[40px] before:border-green/5">

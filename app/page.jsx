@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 const Home = () => {
 	return (
-		<div className="w-full mx-auto overflow-hidden bg-white text-navy">
+		<div className="w-full mx-auto overflow-hidden text-navy">
 			{/*<Topbar />*/}
 			<Header />
 			<Hero />

@@ -9,12 +9,15 @@
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Benefits.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Category.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Copyright.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Process.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cta.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Intro-banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Intro-banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Service.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidenav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidenav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/context/LanguageContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/context/LanguageContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/data/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/data/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/svg/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/svg/logo.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778899160213</updated>
       <workItem from="1778899163616" duration="11550000" />
-      <workItem from="1779634100458" duration="82887000" />
+      <workItem from="1779634100458" duration="87704000" />
     </task>
     <servers />
   </component>

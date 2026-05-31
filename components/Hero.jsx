@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 const Hero = () => {
 	return (
 		<>
-			<section className="hero bg-navy text-white min-h-[80vh] p-6 relative overflow-hidden ">
+			<section className="hero bg-navy text-white min-h-[100vh] mt-[75px] p-6 relative overflow-hidden ">
 				<Skyline />
 				<div className=" hero-content z-[5] max-w-[580px] md:p-16">
 					<div className="hero-tag inline-flex items-center gap-[0.6rem] bg-green-transparent border-green-transparent-border border-2 px-3 py-1 mb-8 animate-[fadeUp_0.6s_0.1s_forwards]">

@@ -6,7 +6,7 @@ const Logo = () => {
 			xmlns="http://www.w3.org/2000/svg"
 			className="w-full h-full"
 		>
-			<rect width="46" height="46" fill="#162438" />
+			<rect width="46" height="46" fill="transparent" />
 
 			{/* C shape */}
 			<path
