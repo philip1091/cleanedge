@@ -25,10 +25,19 @@ const Header = ({lang, t}) => {
 							</div>
 						</div>
 					</Link>
-					<div className="xl:hidden md:hidden ">
+					<div className="flex lg:hidden  gap-3">
+						<Link href={`/${nextLang}`} className="flex items-center gap-2 font-secondary text-green bg-green-transparent border-green-transparent-border border-2 px-3 py-1 btn-transition hover:border-[#7fde2b66]">
+							<MdLanguage />
+							<span className="text-[0.65rem]">
+								{lang === "fr" ? "Switch to " : "Changer en "}
+							</span>
+							<span className="font-bold">
+								{lang === "fr" ? "ENGLISH " : "FRANÇAIS "}
+							</span>
+						</Link>
 						<Sidenav />
 					</div>
-					<nav className="hidden md:flex items-center justify-end gap-4 min-w-[460px] font-secondary">
+					<nav className="hidden lg:flex items-center justify-end gap-4 min-w-[460px] font-secondary">
 						<Link href={`/${nextLang}`} className="flex items-center gap-2  text-green bg-green-transparent border-green-transparent-border border-2 px-3 py-1 btn-transition hover:border-[#7fde2b66]">
 							<MdLanguage />
 							<span className="text-[0.65rem]">

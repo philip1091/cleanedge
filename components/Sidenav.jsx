@@ -42,14 +42,15 @@ const Sidenav = () => {
 					</SheetHeader>
 					<nav className="flex flex-col items-center gap-12  font-secondary">
 						<SheetClose>
+							<a href="#about" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">About</a>
+						</SheetClose>
+						<SheetClose>
 							<a href="#service" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">Services</a>
 						</SheetClose>
 						<SheetClose>
 							<a href="#process" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">Process</a>
 						</SheetClose>
-						<SheetClose>
-							<a href="#about" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">About</a>
-						</SheetClose>
+
 						<SheetClose>
 							<a href="#contact" className="btn-transition bg-green text-navy px-[1.4rem] py-[0.55rem] font-bold text-[0.8rem] tracking-[0.18em] uppercase no-underline duration-200 hover:bg-green-dark">Get a quote</a>
 						</SheetClose>

@@ -21,11 +21,11 @@ const Home = async ({ params }) => {
 			<Header lang={lang} t={t.header} />
 			<Hero t={t.hero} />
 			<IntroBanner t={t.banner_intro} />
-			<About />
-			<Service />
-			<Process />
-			<Testimonial />
-			<Contact />
+			<About t={t.about} />
+			<Service t={t.services} />
+			<Process t={t.process}  />
+			<Testimonial t={t.testimonial} />
+			<Contact t={t.contact} />
 			<Footer />
 		</div>
 	)
