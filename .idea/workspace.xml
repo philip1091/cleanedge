@@ -6,18 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f6219338-daa9-4346-bd31-054e1ac38e21" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidenav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidenav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/context/LanguageContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/context/LanguageContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/data/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/data/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/svg/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/svg/logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Intro-banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Intro-banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/data/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/data/content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +58,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/[lang]" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="vercel.svg" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000/vercel.svg">
       <method v="2" />
@@ -99,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778899160213</updated>
       <workItem from="1778899163616" duration="11550000" />
-      <workItem from="1779634100458" duration="87704000" />
+      <workItem from="1779634100458" duration="99229000" />
     </task>
     <servers />
   </component>

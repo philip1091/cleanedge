@@ -1,5 +1,5 @@
 import { Barlow, Barlow_Condensed } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { cn } from "@/lib/utils";
 
 const barlow = Barlow({
