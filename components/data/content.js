@@ -368,11 +368,19 @@ export const content = {
                 },
                 services:{
                     label: "Service Required",
-                    content:[],
+                    placeholder: "Select a service…",
+                    content:["Office Cleaning", "Hospitality Cleaning", "Day Porter Services", "Post-Construction Cleaning", "Eco-Friendly Cleaning", "Healthcare & Medical","Not sure — I need a consultation" ],
                 },
-                message:{}
+                message:{
+                    label: "Your message",
+                    placeholder: "Tell us about your space and requirements...",
+                },
+                button:"Send Request — Free Quote",
+                success: {
+                    message1: "Request Received",
+                    message2: "We will follow up within one business day with your free quote."
+                }
             }
-
         }
 
 
@@ -742,7 +750,51 @@ export const content = {
                     description: "Lun–ven 8 h–18 h · Urgence 24/7",
                     isLink: false
                 }
-            ]
+            ],
+            form: {
+                f_name: {
+                    label: "Prénom",
+                    placeholder: "Jean",
+                },
+                l_name: {
+                    label: "Nom",
+                    placeholder: "Tremblay",
+                },
+                email: {
+                    label: "Courriel",
+                    placeholder: "jeantremblay@entreprise.ca",
+                },
+                phone: {
+                    label: "Téléphone",
+                    placeholder: "514 000-0000",
+                },
+                company: {
+                    label: "Entreprise / Immeuble",
+                    placeholder: "Nom de votre entreprise ou immeuble",
+                },
+                services: {
+                    label: "Service requis",
+                    placeholder: "Sélectionnez un service…",
+                    content: [
+                        "Nettoyage de bureaux",
+                        "Nettoyage en hôtellerie et restauration",
+                        "Conciergerie de jour",
+                        "Nettoyage après travaux",
+                        "Nettoyage écoresponsable",
+                        "Cliniques et espaces médicaux",
+                        "Je ne suis pas sûr — j’ai besoin d’une consultation",
+                    ],
+                },
+                message: {
+                    label: "Votre message",
+                    placeholder: "Parlez-nous de vos locaux et de vos besoins...",
+                },
+                button: "Envoyer la demande — devis gratuit",
+                success: {
+                    message1: "Demande reçue",
+                    message2: "Nous vous contacterons d’ici un jour ouvrable avec votre devis gratuit."
+                }
+            }
         }
 
     }

@@ -26,7 +26,7 @@ const Service = ({t}) => {
 			<div className="services-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
 				{
 					t.content.map((item, i) => (
-						<div className="svc-card relative overflow-hidden bg-white border border-light-gray p-8 transition-all duration-300 hover:-translate-y-[4px] hover:shadow-[0_16px_40px_rgba(0,0,0,0.07)] opacity-0 animate-[fadeUp_0.6s_0.15s_forwards]">
+						<div key={i} className="svc-card relative overflow-hidden bg-white border border-light-gray p-8 transition-all duration-300 hover:-translate-y-[4px] hover:shadow-[0_16px_40px_rgba(0,0,0,0.07)] opacity-0 animate-[fadeUp_0.6s_0.15s_forwards]">
 							<div className="svc-bg-num absolute top-4 right-5 font-secondary text-[4rem] font-black leading-none text-black/[0.04]">
 								0{i+1}
 							</div>

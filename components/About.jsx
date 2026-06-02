@@ -21,8 +21,8 @@ const About = ({t}) => {
 				</p>
 
 				<div className="about-pillars mt-10 flex flex-col gap-3 relative z-[1] opacity-0 animate-[fadeUp_0.6s_0.55s_forwards]">
-					{t.left.checks.map((item) => (
-						<div key={item} className="pillar flex items-center gap-3 font-secondary font-semibold text-[0.85rem] tracking-[0.15em] uppercase text-white/70">
+					{t.left.checks.map((item, i) => (
+						<div key={i} className="pillar flex items-center gap-3 font-secondary font-semibold text-[0.85rem] tracking-[0.15em] uppercase text-white/70">
 							<div className="pillar-check w-[22px] h-[22px] bg-green rounded-full flex items-center justify-center shrink-0">
 								<svg width="12" height="12" viewBox="0 0 12 12" fill="none">
 									<path d="M2 6 L5 9 L10 3" stroke="#0e1b2e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -48,7 +48,7 @@ const About = ({t}) => {
 				<div className="metric-grid reveal grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
 					{
 						t.right.content.map((item, i) => (
-							<div className="metric-card bg-white border border-light-gray p-7 border-b-[3px] border-b-green transition-[transform,box-shadow] duration-200 hover:-translate-y-[3px] hover:shadow-[0_12px_30px_rgba(0,0,0,0.07)] opacity-0 animate-[fadeUp_0.6s_0.45s_forwards]">
+							<div key={i} className="metric-card bg-white border border-light-gray p-7 border-b-[3px] border-b-green transition-[transform,box-shadow] duration-200 hover:-translate-y-[3px] hover:shadow-[0_12px_30px_rgba(0,0,0,0.07)] opacity-0 animate-[fadeUp_0.6s_0.45s_forwards]">
 								<div className="metric-num font-secondary font-black text-[1.6rem] leading-[1.2] text-navy">
 									{item.title}<span className="text-green text-[1.2rem]">{item.title_side}</span>
 								</div>
