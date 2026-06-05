@@ -17,7 +17,7 @@ export const content = {
                 part3: "Better places."
             },
             sub_title: ["Reliable .", "Professional .", "Essential"],
-            description:"CleanEdge delivers premium commercial cleaning, property maintenance, and day porter services across Greater Montréal — bilingual, bonded, and built around your schedule.",
+            description:"CleanExcel delivers premium commercial cleaning, property maintenance, and day porter services across Greater Montréal — bilingual, bonded, and built around your schedule.",
             button1:"Our Services",
             button2:"Request a Free Quote",
             hero_foot:[
@@ -98,7 +98,7 @@ export const content = {
                     part2: "TRUSTED",
                     part3: "CLEANING PARTNER"
                 },
-                description: "Founded in Montréal, CleanEdge was built on a simple promise: show up, do the job right, every single time. We serve offices, hospitality venues, healthcare facilities, and more — with bilingual staff who understand your business.",
+                description: "Founded in Montréal, CleanExcel was built on a simple promise: show up, do the job right, every single time. We serve offices, hospitality venues, healthcare facilities, and more — with bilingual staff who understand your business.",
                 checks:["Fully insured & bonded", "Background-checked team", "Bilingual service — FR/EN", "100% eco-certified products"]
 
             },
@@ -229,7 +229,7 @@ export const content = {
                 part1: "BE AMONG OUR",
                 part2: "FIRST CLIENTS",
             },
-            description: "CleanEdge is launching in Montréal and accepting our first commercial accounts. Join early and lock in founding rates — permanently — while helping shape a new standard in property services.",
+            description: "CleanExcel is launching in Montréal and accepting our first commercial accounts. Join early and lock in founding rates — permanently — while helping shape a new standard in property services.",
             content: [
                 {
                     icon: "🎯",
@@ -275,7 +275,7 @@ export const content = {
                         />
                     </svg>,
                     title: "phone",
-                    description: "(514) 555-0199",
+                    description: "(581) 889-3500",
                     isLink: true,
                     ref: "tel:+15145550199"
                 },
@@ -299,9 +299,9 @@ export const content = {
                         />
                     </svg>,
                     title: "email",
-                    description: "info@cleanedge.ca",
+                    description: "info@cleanexcel.ca",
                     isLink: true,
-                    ref: "mailto:info@cleanedge.ca?subject=Request%20for%20a%20Free%20Quote"
+                    ref: "mailto:info@cleanexcel.ca?subject=Request%20for%20a%20Free%20Quote"
                 },
                 {
                     icon:<svg width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -401,7 +401,7 @@ export const content = {
                 part3: "lieux au top."
             },
             sub_title: ["Fiable .", "Professionnel .", "Essentiel"],
-            description: "CleanEdge propose des services professionnels de nettoyage commercial, d’entretien d’immeubles et de conciergerie de jour partout dans le Grand Montréal — bilingues, assurés et conçus selon votre horaire.",
+            description: "CleanExcel propose des services professionnels de nettoyage commercial, d’entretien d’immeubles et de conciergerie de jour partout dans le Grand Montréal — bilingues, assurés et conçus selon votre horaire.",
             button1:"Nos Services",
             button2:"Demander un devis gratuit",
             hero_foot:[
@@ -482,7 +482,7 @@ export const content = {
                     part2: "DE CONFIANCE",
                     part3: "POUR LE NETTOYAGE A MONTRÉAL"
                 },
-                description: "Fondée à Montréal, CleanEdge repose sur une promesse simple : être présent, faire le travail correctement et offrir un service fiable à chaque visite. Nous desservons les bureaux, les établissements hôteliers, les cliniques, les commerces et plus encore — avec une équipe bilingue qui comprend les besoins de votre entreprise.",
+                description: "Fondée à Montréal, CleanExcel repose sur une promesse simple : être présent, faire le travail correctement et offrir un service fiable à chaque visite. Nous desservons les bureaux, les établissements hôteliers, les cliniques, les commerces et plus encore — avec une équipe bilingue qui comprend les besoins de votre entreprise.",
                 checks:[
                     "Entièrement assuré et cautionné",
                     "Équipe fiable et vérifiée",
@@ -632,7 +632,7 @@ export const content = {
                 part1: "SOYEZ PARMI NOS",
                 part2: "PREMIERS CLIENTS",
             },
-            description: "CleanEdge arrive à Montréal et accepte maintenant ses premiers clients commerciaux. Profitez d’un tarif fondateur garanti à long terme et participez à la création d’un nouveau standard en entretien immobilier.",
+            description: "CleanExcel arrive à Montréal et accepte maintenant ses premiers clients commerciaux. Profitez d’un tarif fondateur garanti à long terme et participez à la création d’un nouveau standard en entretien immobilier.",
             content: [
                 {
                     icon: "🎯",
@@ -681,7 +681,7 @@ export const content = {
                         />
                     </svg>,
                     title: "Téléphone",
-                    description: "(514) 555-0199",
+                    description: "(581) 889-3500",
                     isLink: true,
                     ref: "tel:+15145550199"
                 },
@@ -705,9 +705,9 @@ export const content = {
                         />
                     </svg>,
                     title: "Courriel",
-                    description: "info@cleanedge.ca",
+                    description: "info@cleanexcel.ca",
                     isLink: true,
-                    ref: "mailto:info@cleanedge.ca?subject=Demande%20de%20devis%20gratuit"
+                    ref: "mailto:info@cleanexcel.ca?subject=Demande%20de%20devis%20gratuit"
                 },
                 {
                     icon: <svg width="18" height="18" viewBox="0 0 18 18" fill="none">

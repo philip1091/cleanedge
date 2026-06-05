@@ -29,7 +29,7 @@ const Hero = ({t}) => {
 							))
 						}
 					</p>
-					<p className="hero-desc text-[1.05rem] font-light leading-[1.75] text-white/60 max-w-[440px] mb-10 opacity-0 animate-[fadeUp_0.6s_0.55s_forwards]">CleanEdge
+					<p className="hero-desc text-[1.05rem] font-light leading-[1.75] text-white/60 max-w-[440px] mb-10 opacity-0 animate-[fadeUp_0.6s_0.55s_forwards]">
 						{t.description}
 					</p>
 					<div className="hero-btns flex flex-wrap gap-1 opacity-0 animate-[fadeUp_0.6s_0.7s_forwards]">

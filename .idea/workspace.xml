@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f6219338-daa9-4346-bd31-054e1ac38e21" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Process.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Process.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/QuoteForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/QuoteForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Service.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/data/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/data/content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +35,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -99,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1778899160213</updated>
       <workItem from="1778899163616" duration="11550000" />
-      <workItem from="1779634100458" duration="120965000" />
+      <workItem from="1779634100458" duration="121620000" />
+      <workItem from="1780694749667" duration="1695000" />
     </task>
     <servers />
   </component>
