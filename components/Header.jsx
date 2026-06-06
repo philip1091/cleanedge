@@ -11,27 +11,24 @@ const Header = ({lang, t}) => {
 			<div className="page-container mx-auto">
 				<div className="text-white flex justify-between items-center p-3 md:w-auto gap-8">
 					<Link href={"/"} className="flex items-center gap-4">
-						<div className="w-[46px] h-[46px] relative shrink-0">
+						<div className="w-[40px] h-[40px] md:w-[46px] md:h-[46px] relative shrink-0">
 							<Logo />
 						</div>
 						<div className="leading-none font-secondary">
-							<div className="font-[800] text-[1.7rem] tracking-[0.04em] uppercase text-white">
+							<div className="font-[800] text-[1.4rem] md:text-[1.7rem] tracking-[0.04em] uppercase text-white">
 								CLEAN<span className="text-green">EXCEL</span>
 							</div>
 
-							<div className="font-normal text-[0.65rem] tracking-[0.3em] uppercase text-gray-400">
+							<div className="font-normal text-[0.55rem] md:text-[0.65rem] tracking-[0.3em] uppercase text-gray-400">
 								{t.title}
 							</div>
 						</div>
 					</Link>
-					<div className="flex lg:hidden  gap-3">
+					<div className="flex lg:hidden gap-2">
 						<Link href={`/${nextLang}`} className="flex items-center gap-2 font-secondary text-green bg-green-transparent border-green-transparent-border border-2 px-3 py-1 btn-transition hover:border-[#7fde2b66]">
 							<MdLanguage />
-							<span className="text-[0.65rem]">
-								{lang === "fr" ? "Switch to " : "Changer en "}
-							</span>
-							<span className="font-bold">
-								{lang === "fr" ? "ENGLISH " : "FRANÇAIS "}
+							<span className="font-bold text-[0.9rem] lg:text-[1rem]">
+								{lang === "fr" ? "EN " : "FR "}
 							</span>
 						</Link>
 						<Sidenav />
