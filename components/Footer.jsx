@@ -8,22 +8,22 @@ const Footer = ({t}) => {
 
 			<div>
 				<Link href={"/"} className="flex items-center gap-4">
-					<div className="w-[46px] h-[46px] relative shrink-0">
+					<div className="w-[40px] h-[40px] md:w-[46px] md:h-[46px] relative shrink-0">
 						<Logo />
 					</div>
 					<div className="leading-none font-secondary">
-						<div className="font-[800] text-[1.7rem] tracking-[0.04em] uppercase text-white">
-							CLEAN<span className="text-green">EDGE</span>
+						<div className="font-[800] text-[1.4rem] md:text-[1.7rem] tracking-[0.04em] uppercase text-white">
+							CLEAN<span className="text-green">EXCEL</span>
 						</div>
 
-						<div className="font-normal text-[0.65rem] tracking-[0.3em] uppercase text-gray-400">
+						<div className="font-normal text-[0.55rem] md:text-[0.65rem] tracking-[0.3em] uppercase text-gray-400">
 							{t.title}
 						</div>
 					</div>
 				</Link>
 			</div>
 
-			<ul className="footer-links flex flex-wrap justify-around gap-8 list-none">
+			<ul className="footer-links flex flex-wrap justify-around md:justify-center gap-8 list-none">
 				<li>
 					<a
 						href="#service"
