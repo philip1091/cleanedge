@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = ({t}) => {
 	return (
-		<section id="service" className="services bg-offwhite px-6 md:px-16 py-24 overflow-hidden">
+		<section id="service" className="services bg-offwhite px-6 py-10 md:px-16 md:py-20 overflow-hidden">
 			<div className="sec-header flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-14 opacity-0 animate-[fadeUp_0.6s_0.1s_forwards]">
 
 				<div>
@@ -17,7 +17,7 @@ const Service = ({t}) => {
 
 				<a
 					href="#contact"
-					className="bg-green text-navy font-secondary font-bold text-xs tracking-[0.2em] uppercase px-7 py-3 no-underline [clip-path:polygon(0_0,calc(100%_-_10px)_0,100%_100%,10px_100%)] transition-all duration-200 hover:bg-green-dark hover:-translate-y-[2px]"
+					className="hidden md:flex bg-green max-w-[12.5rem] text-navy font-secondary font-bold text-xs tracking-[0.2em] uppercase px-7 py-3 no-underline [clip-path:polygon(0_0,calc(100%_-_10px)_0,100%_100%,10px_100%)] transition-all duration-200 hover:bg-green-dark hover:-translate-y-[2px]"
 				>
 					{t.button} →
 				</a>

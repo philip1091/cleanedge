@@ -26,7 +26,7 @@ const Home = async ({ params }) => {
 			<Process t={t.process}  />
 			<Testimonial t={t.testimonial} />
 			<Contact t={t.contact} />
-			<Footer />
+			<Footer t={t.footer} />
 		</div>
 	)
 }

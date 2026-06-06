@@ -4,7 +4,7 @@ const About = ({t}) => {
 
 	return (
 		<section id="about" className="about grid grid-cols-1 lg:grid-cols-2 min-h-[560px]">
-			<div className="about-left relative overflow-hidden flex flex-col justify-center bg-navy px-16 py-20 after:content-[''] after:absolute after:bottom-[-60px] after:right-[-60px] after:w-[280px] after:h-[280px] after:rounded-full after:border-[60px] after:border-green/10 before:content-[''] before:absolute before:top-[-40px] before:left-[-40px] before:w-[160px] before:h-[160px] before:rounded-full before:border-[40px] before:border-green/5">
+			<div className="about-left relative overflow-hidden flex flex-col justify-center bg-navy px-6 py-10 md:px-16 md:py-20 after:content-[''] after:absolute after:bottom-[-60px] after:right-[-60px] after:w-[280px] after:h-[280px] after:rounded-full after:border-[60px] after:border-green/10 before:content-[''] before:absolute before:top-[-40px] before:left-[-40px] before:w-[160px] before:h-[160px] before:rounded-full before:border-[40px] before:border-green/5">
 
 				<div className="section-tag font-secondary font-bold text-[0.65rem] tracking-[0.3em] uppercase text-green mb-4 flex items-center gap-2 before:content-[''] before:w-6 before:h-[3px] before:bg-green opacity-0 animate-[fadeUp_0.6s_0.1s_forwards]">
 					{t.left.intro}
@@ -34,7 +34,7 @@ const About = ({t}) => {
 				</div>
 			</div>
 
-			<div className="about-right relative flex flex-col justify-center bg-offwhite px-16 py-20 before:content-[''] before:absolute before:top-0 before:left-0 before:w-[5px] before:h-full before:bg-green">
+			<div className="about-right relative flex flex-col justify-center bg-offwhite px-6 py-10 md:px-16 md:py-20 before:content-[''] before:absolute before:top-0 before:left-0 before:w-[5px] before:h-full md:before:bg-green">
 
 				<div className="section-tag font-secondary font-bold text-[0.65rem] tracking-[0.3em] uppercase text-green mb-4 flex items-center gap-2 before:content-[''] before:w-6 before:h-[3px] before:bg-green opacity-0 animate-[fadeUp_0.6s_0.15s_forwards]">
 					{t.right.intro}

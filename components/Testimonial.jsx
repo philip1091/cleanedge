@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonial = ({t}) => {
 	return (
-		<section className="testimonials bg-offwhite px-6 md:px-16 py-20 overflow-hidden">
+		<section className="testimonials bg-offwhite px-6 py-10 md:px-16 md:py-20 overflow-hidden">
 
 			<div className="section-tag font-secondary font-bold text-[0.65rem] tracking-[0.3em] uppercase text-green mb-4 flex items-center gap-2 before:content-[''] before:w-6 before:h-[3px] before:bg-green opacity-0 animate-[fadeUp_0.6s_0.1s_forwards]">
 				{t.intro}

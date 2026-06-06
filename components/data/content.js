@@ -381,6 +381,14 @@ export const content = {
                     message2: "We will follow up within one business day with your free quote."
                 }
             }
+        },
+        footer:{
+            title: "Property Services",
+            services: "Services",
+            process: "Process",
+            about: "About",
+            contact: "Get a Quote",
+            text: "Bilingual · Bonded · Insured"
         }
 
 
@@ -795,7 +803,15 @@ export const content = {
                     message2: "Nous vous contacterons d’ici un jour ouvrable avec votre devis gratuit."
                 }
             }
-        }
+        },
+        footer: {
+            title: "Services de Nettoyage",
+            services: "Services",
+            process: "Processus",
+            about: "A Propos",
+            contact: "Obtenez un devis",
+            text: "Bilingue · Fiable · Assuré"
+        },
 
     }
 }

@@ -6,9 +6,9 @@ import dynamic from 'next/dynamic';
 const Hero = ({t}) => {
 	return (
 		<>
-			<section className="hero bg-navy text-white mt-[75px] px-16 py-20 relative overflow-hidden ">
+			<section className="hero bg-navy text-white mt-[75px] md:px-16 md:py-20 relative overflow-hidden ">
 				<Skyline />
-				<div className=" hero-content z-[5] max-w-[680px]">
+				<div className=" hero-content z-[5] max-w-[680px] px-6 py-10">
 					<div className="hero-tag inline-flex items-center gap-[0.6rem] bg-green-transparent border-green-transparent-border border-2 px-3 py-1 mb-8 animate-[fadeUp_0.6s_0.1s_forwards]">
 						<div className="hero-tag-dot w-1.5 h-1.5 rounded-full bg-red-600 animate-[pulse_2s_infinite]"></div>
 						<span
@@ -32,7 +32,7 @@ const Hero = ({t}) => {
 					<p className="hero-desc text-[1.05rem] font-light leading-[1.75] text-white/60 max-w-[440px] mb-10 opacity-0 animate-[fadeUp_0.6s_0.55s_forwards]">
 						{t.description}
 					</p>
-					<div className="hero-btns flex flex-wrap gap-1 opacity-0 animate-[fadeUp_0.6s_0.7s_forwards]">
+					<div className="hero-btns flex md:flex-wrap gap-1 opacity-0 animate-[fadeUp_0.6s_0.7s_forwards]">
 						<a href="#service"
 						   className="btn-outline mb-6  bg-transparent text-white font-secondary font-semibold text-sm tracking-[0.2em]   uppercase px-8 py-3.5 no-underline border-2 border-white/25 [clip-path:polygon(0_0,calc(100%_-_10px)_0,100%_100%,10px_100%)] transition-[border-color,color] duration-200 hover:border-green hover:text-green">
 							{t.button1}
@@ -44,7 +44,7 @@ const Hero = ({t}) => {
 
 					</div>
 				</div>
-				<div className="hero-stats grid grid-cols-2 lg:grid-cols-4 z-[5] border-white/[0.06] bg-navy text-white opacity-0 animate-[fadeUp_0.6s_0.9s_forwards]">
+				<div className="pb-6 md:pb-0 hero-stats grid grid-cols-2 lg:grid-cols-4 z-[5] border-white/[0.06] bg-navy text-white opacity-0 animate-[fadeUp_0.6s_0.9s_forwards]">
 					{
 						t.hero_foot.map((item, i) => (
 							<div

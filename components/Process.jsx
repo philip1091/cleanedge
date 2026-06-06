@@ -2,7 +2,7 @@ import React from 'react'
 
 const Process = ({t}) => {
 	return (
-		<section id="process" className="process relative overflow-hidden bg-navy px-6 md:px-16 py-20 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-green">
+		<section id="process" className="process relative overflow-hidden bg-navy px-6 py-10 md:px-16 md:py-20 before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-green">
 
 			<div className="section-tag font-secondary font-bold text-[0.65rem] tracking-[0.3em] uppercase text-green mb-4 flex items-center gap-2 before:content-[''] before:w-6 before:h-[3px] before:bg-green opacity-0 animate-[fadeUp_0.6s_0.1s_forwards]">
 				{t.intro}
