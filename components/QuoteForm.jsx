@@ -23,7 +23,7 @@ export default function QuoteForm({t}) {
 	function handleSubmit(e) {
 		e.preventDefault();
 		console.log(formData);
-		setSuccess(true);
+		// setSuccess(true);
 	}
 
 	const inputClass = "form-input w-full bg-white/[0.04] border border-white/10 text-white text-[0.9rem] px-4 py-3.5 outline-none transition-[border-color,background] duration-200 focus:border-green focus:bg-green/5 placeholder:text-white/20";

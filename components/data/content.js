@@ -387,7 +387,7 @@ export const content = {
     },
     fr:{
         header: {
-            title: "Services Nettoyage",
+            title: "Services de Nettoyage",
             services: "Services",
             process: "Processus",
             about: "A Propos",

@@ -5,8 +5,7 @@ import { MdLanguage } from "react-icons/md";
 
 const Header = ({lang, t}) => {
 	const nextLang = lang === "en" ? "fr" : "en";
-	console.log(nextLang)
-	// console.log(t)
+
 	return (
 		<div className=" mx-auto bg-navy border-b-[5px] border-green h-[77px] w-full fixed z-5">
 			<div className="page-container mx-auto">
@@ -17,7 +16,7 @@ const Header = ({lang, t}) => {
 						</div>
 						<div className="leading-none font-secondary">
 							<div className="font-[800] text-[1.7rem] tracking-[0.04em] uppercase text-white">
-								CLEAN<span className="text-green">EDGE</span>
+								CLEAN<span className="text-green">EXCEL</span>
 							</div>
 
 							<div className="font-normal text-[0.65rem] tracking-[0.3em] uppercase text-gray-400">
