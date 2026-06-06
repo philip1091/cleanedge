@@ -11,7 +11,7 @@ import Link from "next/link";
 import { MdOutlineMenu } from "react-icons/md";
 import Logo from "@/components/svg/logo";
 
-const Sidenav = () => {
+const Sidenav = ({t}) => {
 	return (
 		<Sheet>
 			<SheetTrigger className="cursor-pointer flex items-center justify-center">
@@ -27,11 +27,11 @@ const Sidenav = () => {
 								</div>
 								<div className="leading-none font-secondary">
 									<div className="font-[800] text-[1.7rem] tracking-[0.04em] uppercase text-white">
-										CLEAN<span className="text-green">EDGE</span>
+										CLEAN<span className="text-green">EXCEL</span>
 									</div>
 
 									<div className="font-normal text-[0.65rem] tracking-[0.3em] uppercase text-gray-400">
-										Property Services
+										{t.title}
 									</div>
 								</div>
 							</Link>
@@ -42,17 +42,17 @@ const Sidenav = () => {
 					</SheetHeader>
 					<nav className="flex flex-col items-center gap-12  font-secondary">
 						<SheetClose>
-							<a href="#about" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">About</a>
+							<a href="#about" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">{t.about}</a>
 						</SheetClose>
 						<SheetClose>
-							<a href="#service" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">Services</a>
+							<a href="#service" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">{t.services}</a>
 						</SheetClose>
 						<SheetClose>
-							<a href="#process" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">Process</a>
+							<a href="#process" className="font-semibold text-[0.8rem] tracking-[0.18em] uppercase text-white/70 no-underline transition-colors duration-200 text hover:text-green">{t.process}</a>
 						</SheetClose>
 
 						<SheetClose>
-							<a href="#contact" className="btn-transition bg-green text-navy px-[1.4rem] py-[0.55rem] font-bold text-[0.8rem] tracking-[0.18em] uppercase no-underline duration-200 hover:bg-green-dark">Get a quote</a>
+							<a href="#contact" className="btn-transition bg-green text-navy px-[1.4rem] py-[0.55rem] font-bold text-[0.8rem] tracking-[0.18em] uppercase no-underline duration-200 hover:bg-green-dark">{t.contact}</a>
 						</SheetClose>
 					</nav>
 				</div>

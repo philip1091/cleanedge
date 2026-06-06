@@ -31,7 +31,7 @@ const Header = ({lang, t}) => {
 								{lang === "fr" ? "EN " : "FR "}
 							</span>
 						</Link>
-						<Sidenav />
+						<Sidenav t={t} />
 					</div>
 					<nav className="hidden lg:flex items-center justify-end gap-4 min-w-[460px] font-secondary">
 						<Link href={`/${nextLang}`} className="flex items-center gap-2  text-green bg-green-transparent border-green-transparent-border border-2 px-3 py-1 btn-transition hover:border-[#7fde2b66]">

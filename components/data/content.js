@@ -16,7 +16,7 @@ export const content = {
                 part2: "Spaces",
                 part3: "Better places."
             },
-            sub_title: ["Reliable .", "Professional .", "Essential"],
+            sub_title: ["Reliable .", " Professional .", " Essential"],
             description:"CleanExcel delivers premium commercial cleaning, property maintenance, and day porter services across Greater Montréal — bilingual, bonded, and built around your schedule.",
             button1:"Our Services",
             button2:"Request a Free Quote",
@@ -390,8 +390,6 @@ export const content = {
             contact: "Get a Quote",
             text: "Bilingual · Bonded · Insured"
         }
-
-
     },
     fr:{
         header: {
@@ -408,7 +406,7 @@ export const content = {
                 part2: "Propre.",
                 part3: "lieux au top."
             },
-            sub_title: ["Fiable .", "Professionnel .", "Essentiel"],
+            sub_title: ["Fiable .", " Professionnel .", " Essentiel"],
             description: "CleanExcel propose des services professionnels de nettoyage commercial, d’entretien d’immeubles et de conciergerie de jour partout dans le Grand Montréal — bilingues, assurés et conçus selon votre horaire.",
             button1:"Nos Services",
             button2:"Demander un devis gratuit",
@@ -812,6 +810,5 @@ export const content = {
             contact: "Obtenez un devis",
             text: "Bilingue · Fiable · Assuré"
         },
-
     }
 }
