@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6219338-daa9-4346-bd31-054e1ac38e21" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[lang]/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +96,7 @@
       <workItem from="1778899163616" duration="11550000" />
       <workItem from="1779634100458" duration="121620000" />
       <workItem from="1780694749667" duration="4561000" />
-      <workItem from="1780758993300" duration="9570000" />
+      <workItem from="1780758993300" duration="11613000" />
     </task>
     <servers />
   </component>
